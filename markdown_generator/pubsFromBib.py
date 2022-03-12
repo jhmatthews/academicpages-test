@@ -24,6 +24,8 @@ import html
 import os
 import re
 
+journal_map = {"mnras": "MNRAS", "apj": "ApJ", "aj": "AJ", "prd": "Phys. Rev. D", "epjwc": "EPJWC", "apjl": "ApJ Letters", "Plasma Physics and Controlled Fusion": "Plasma Physics and Controlled Fusion", "nar": "New Astronomy Reviews", "aap": "A&A", "arXiv e-prints": "arXiv e-prints"} 
+
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
@@ -112,7 +114,7 @@ for pubsource in publist:
             citation = citation.replace("{", "").replace("}","")
             #add venue logic depending on citation type
             venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
-
+            venue = journal_map[venue]
             citation = citation + " " + html_escape(venue)
             citation = citation + ", " + pub_year + "."
 
