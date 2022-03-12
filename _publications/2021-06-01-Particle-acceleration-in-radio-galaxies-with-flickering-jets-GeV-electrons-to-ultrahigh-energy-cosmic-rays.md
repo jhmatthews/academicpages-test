@@ -6,6 +6,6 @@ date: 2021-06-01
 venue: 'MNRAS'
 paperurl: 'https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.5948M'
 citation: ' James Matthews,  Andrew Taylor, &quot;Particle acceleration in radio galaxies with flickering jets: GeV electrons to ultrahigh energy cosmic rays.&quot; MNRAS, 2021.'
-authors: '**James Matthews**, Andrew Taylor, '
+authors: '<b>James Matthews</b>, Andrew Taylor, '
 ---
 [Access paper here](https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.5948M){:target="_blank"}
