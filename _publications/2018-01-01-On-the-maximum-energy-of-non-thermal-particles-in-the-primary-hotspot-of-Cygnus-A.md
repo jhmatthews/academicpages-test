@@ -4,7 +4,8 @@ collection: publications
 permalink: /publication/2018-01-01-On-the-maximum-energy-of-non-thermal-particles-in-the-primary-hotspot-of-Cygnus-A
 date: 2018-01-01
 venue: 'MNRAS'
+paperurl: 'https://ui.adsabs.harvard.edu/abs/2018MNRAS.473.3500A'
 citation: ' Anabella Araudo,  Anthony Bell,  Katherine Blundell,  James Matthews, &quot;On the maximum energy of non-thermal particles in the primary hotspot of Cygnus A.&quot; MNRAS, 2018.'
-authors: 'Anabella Araudo, Anthony Bell, Katherine Blundell, James Matthews, '
+authors: 'Anabella Araudo, Anthony Bell, Katherine Blundell,  et al.'
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=On+the+maximum+energy+of+non+thermal+particles+in+the+primary+hotspot+of+Cygnus+A){:target="_blank"} for full citation
+[Access paper here](https://ui.adsabs.harvard.edu/abs/2018MNRAS.473.3500A){:target="_blank"}

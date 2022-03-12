@@ -100,12 +100,26 @@ for pubsource in publist:
             #Build Citation from text
             citation = ""
             authors = ""
-
+            count = 0
+            found_me = False
+	    
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
-                authors = authors +author.first_names[0]+" "+author.last_names[0]+", "
-
+                if "Matthews" in author.last_names[0]:
+                    addition = "**"+author.first_names[0]+" "+author.last_names[0]+"**, "
+                    found_me = True
+                else:
+                    addition = author.first_names[0]+" "+author.last_names[0]+", "
+                count += 1
+                if count <= 3:    
+                    authors = authors + addition
+            
+            if count > 3:
+                if found_me:
+                    authors = authors + " et al."                
+                else:
+                    authors = authors + "..., **James Matthews**, et al." 
             authors = authors.replace("{", "").replace("}","")
             authors = authors.replace("{", "").replace("}","")
 
@@ -137,9 +151,9 @@ for pubsource in publist:
             md += "\nvenue: '" + html_escape(venue) + "'"
             
             url = False
-            if "url" in b.keys():
-                if len(str(b["url"])) > 5:
-                    md += "\npaperurl: '" + b["url"] + "'"
+            if "adsurl" in b.keys():
+                if len(str(b["adsurl"])) > 5:
+                    md += "\npaperurl: '" + b["adsurl"] + "'"
                     url = True
 
             md += "\ncitation: '" + html_escape(citation) + "'"
@@ -153,7 +167,7 @@ for pubsource in publist:
                 md += "\n" + html_escape(b["note"]) + "\n"
 
             if url:
-                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
+                md += "\n[Access paper here](" + b["adsurl"] + "){:target=\"_blank\"}\n" 
             else:
                 md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
 

@@ -4,7 +4,8 @@ collection: publications
 permalink: /publication/2019-02-01-Ultrahigh-energy-cosmic-rays-from-shocks-in-the-lobes-of-powerful-radio-galaxies
 date: 2019-02-01
 venue: 'MNRAS'
+paperurl: 'https://ui.adsabs.harvard.edu/abs/2019MNRAS.482.4303M'
 citation: ' J. Matthews,  A. Bell,  K. Blundell,  A. Araudo, &quot;Ultrahigh energy cosmic rays from shocks in the lobes of powerful radio galaxies.&quot; MNRAS, 2019.'
-authors: 'J. Matthews, A. Bell, K. Blundell, A. Araudo, '
+authors: '**J. Matthews**, A. Bell, K. Blundell,  et al.'
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=Ultrahigh+energy+cosmic+rays+from+shocks+in+the+lobes+of+powerful+radio+galaxies){:target="_blank"} for full citation
+[Access paper here](https://ui.adsabs.harvard.edu/abs/2019MNRAS.482.4303M){:target="_blank"}

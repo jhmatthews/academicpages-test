@@ -4,7 +4,8 @@ collection: publications
 permalink: /publication/2013-07-01-Nearby-Planetary-Systems-as-Lenses-during-Predicted-Close-Passages-to-Background-Stars
 date: 2013-07-01
 venue: 'ApJ'
+paperurl: 'https://ui.adsabs.harvard.edu/abs/2013ApJ...771...79D'
 citation: ' Rosanne Di Stefano,  James Matthews,  S\&apos;ebastien L\&apos;epine, &quot;Nearby Planetary Systems as Lenses during Predicted Close Passages to Background Stars.&quot; ApJ, 2013.'
-authors: 'Rosanne Di Stefano, James Matthews, S\&apos;ebastien L\&apos;epine, '
+authors: 'Rosanne Di Stefano, **James Matthews**, S\&apos;ebastien L\&apos;epine, '
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=Nearby+Planetary+Systems+as+Lenses+during+Predicted+Close+Passages+to+Background+Stars){:target="_blank"} for full citation
+[Access paper here](https://ui.adsabs.harvard.edu/abs/2013ApJ...771...79D){:target="_blank"}
