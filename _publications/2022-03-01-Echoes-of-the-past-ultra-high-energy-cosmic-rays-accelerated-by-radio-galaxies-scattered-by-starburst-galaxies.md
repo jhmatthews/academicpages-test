@@ -8,4 +8,3 @@ paperurl: 'https://ui.adsabs.harvard.edu/abs/2022MNRAS.511..448B'
 citation: ' A. Bell,  J. Matthews, &quot;Echoes of the past: ultra-high-energy cosmic rays accelerated by radio galaxies, scattered by starburst galaxies.&quot; MNRAS, 2022.'
 authors: 'A. Bell, <b>J. Matthews</b>, '
 ---
-[Access paper here](https://ui.adsabs.harvard.edu/abs/2022MNRAS.511..448B){:target="_blank"}

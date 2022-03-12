@@ -8,4 +8,3 @@ paperurl: 'https://ui.adsabs.harvard.edu/abs/2020PPCF...62i5026B'
 citation: ' A. Bell,  R. Kingham,  H. Watkins,  J. Matthews, &quot;Instability in a magnetised collisional plasma driven by a heat flow or a current.&quot; Plasma Physics and Controlled Fusion, 2020.'
 authors: 'A. Bell, R. Kingham, H. Watkins,  et al.'
 ---
-[Access paper here](https://ui.adsabs.harvard.edu/abs/2020PPCF...62i5026B){:target="_blank"}

@@ -8,4 +8,3 @@ paperurl: 'https://ui.adsabs.harvard.edu/abs/2020NewAR..8901543M'
 citation: ' James Matthews,  Anthony Bell,  Katherine Blundell, &quot;Particle acceleration in astrophysical jets.&quot; New Astronomy Reviews, 2020.'
 authors: '<b>James Matthews</b>, Anthony Bell, Katherine Blundell, '
 ---
-[Access paper here](https://ui.adsabs.harvard.edu/abs/2020NewAR..8901543M){:target="_blank"}

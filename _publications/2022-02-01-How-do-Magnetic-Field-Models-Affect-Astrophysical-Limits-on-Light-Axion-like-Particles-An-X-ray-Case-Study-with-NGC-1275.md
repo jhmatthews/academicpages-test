@@ -8,4 +8,3 @@ paperurl: 'https://ui.adsabs.harvard.edu/abs/2022arXiv220208875M'
 citation: ' James Matthews,  Christopher Reynolds,  M. Marsh,  J\&apos;ulia Sisk-Reyn\&apos;es,  Payton Rodman, &quot;How do Magnetic Field Models Affect Astrophysical Limits on Light Axion-like Particles? An X-ray Case Study with NGC 1275.&quot; arXiv e-prints, 2022.'
 authors: '<b>James Matthews</b>, Christopher Reynolds, M. Marsh,  et al.'
 ---
-[Access paper here](https://ui.adsabs.harvard.edu/abs/2022arXiv220208875M){:target="_blank"}

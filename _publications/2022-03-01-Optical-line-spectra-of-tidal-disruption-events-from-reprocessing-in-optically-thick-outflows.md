@@ -8,4 +8,3 @@ paperurl: 'https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.5426P'
 citation: ' Edward Parkinson,  Christian Knigge,  James Matthews,  Knox Long,  Nick Higginbottom,  Stuart Sim,  Samuel Mangham, &quot;Optical line spectra of tidal disruption events from reprocessing in optically thick outflows.&quot; MNRAS, 2022.'
 authors: 'Edward Parkinson, Christian Knigge, <b>James Matthews</b>,  et al.'
 ---
-[Access paper here](https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.5426P){:target="_blank"}
