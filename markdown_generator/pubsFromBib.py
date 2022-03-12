@@ -107,7 +107,7 @@ for pubsource in publist:
             for author in bibdata.entries[bib_id].persons["author"]:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
                 if "Matthews" in author.last_names[0]:
-                    addition = "**"+author.first_names[0]+" "+author.last_names[0]+"**, "
+                    addition = "<b>"+author.first_names[0]+" "+author.last_names[0]+"</b>, "
                     found_me = True
                 else:
                     addition = author.first_names[0]+" "+author.last_names[0]+", "
@@ -119,7 +119,7 @@ for pubsource in publist:
                 if found_me:
                     authors = authors + " et al."                
                 else:
-                    authors = authors + "..., **James Matthews**, et al." 
+                    authors = authors + "..., <b>James Matthews</b>, et al." 
             authors = authors.replace("{", "").replace("}","")
             authors = authors.replace("{", "").replace("}","")
 
