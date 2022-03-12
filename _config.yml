@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "James Matthews"
-  avatar           : "profile.png"
-  bio              : "Astrophysicst"
+  avatar           : "portrait.jpg"
+  bio              : "Astrophysicist"
   location         : "University of Cambridge"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=Z3W2v-UAAAAJ&hl=en"
-  email            : matthews [at] ast [dot] cam [dot] ac [dot] uk
+  email            : matthews@ast.cam.ac.uk
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -193,7 +193,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: research
     values:
       layout: single
       author_profile: true
@@ -201,22 +201,6 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -226,19 +210,17 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""
       type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true  # _talks
+  - scope:
+      path: ""
+      type: other
     values:
       layout: talk
       author_profile: true
