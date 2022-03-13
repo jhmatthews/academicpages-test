@@ -6,13 +6,13 @@ layout: archive
 redirect_from: 
   - /research.html
 ---
-<script src="assets/js/md-gallery.js"></script>
+<script src="../assets/js/md-gallery.js"></script>
 
 My research is...
 
-* ![Image 1](images/her_a.png)
-* ![Image 2](images/her_a.png)
-* ![Image 3](images/her_a.png)
+* ![Image 1](../images/her_a.png)
+* ![Image 2](../images/her_a.png)
+* ![Image 3](../images/her_a.png)
 
 <script>
     md_gallery();
