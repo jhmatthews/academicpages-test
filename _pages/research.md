@@ -8,13 +8,13 @@ redirect_from:
 ---
 {% include base_path %}
 
-<script src="assets/js/md-gallery.js"></script>
+<script src="{{ base_path }} /assets/js/md-gallery.js"></script>
 
 My research is...
 
-* ![Image 1](images/her_a.png)
-* ![Image 2](images/her_a.png)
-* ![Image 3](images/her_a.png)
+* ![Image 1]({{ base_path }} /images/her_a.png)
+* ![Image 2]({{ base_path }} /images/her_a.png)
+* ![Image 3]({{ base_path }} /images/her_a.png)
 
 <script>
     md_gallery();
